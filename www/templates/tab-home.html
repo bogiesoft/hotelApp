@@ -1,0 +1,15 @@
+<ion-view view-title="Room Select">
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item ng-repeat="room in roomsData" ui-sref="home.facts({roomNum: room.room_number})">
+         <div class="item-icon-left">
+             <i class="icon ion-ios-alarm-outline"></i>
+             <p>{{room.room_number}} {{room.room_occupancyStatus}} {{room.room_cleaningStatus}}</p>
+         </div>
+         <div class="item-icon-right">
+             <i class="icon ion-ios-arrow-right"></i>
+         </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,72 @@
+﻿    <ion-view title="Home">
+        <ion-content class="padding">
+            <div class="row">
+                <div class="col col-30">
+                    Room No.
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.room_number}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-40">
+                    Occupancy Status
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.room_occupancyStatus}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-40">
+                    Cleaning Status
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.room_cleaningStatus}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-40">
+                    Sheets
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.room_sheetStatus}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-40">
+                    Guest Name
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.guest_name}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-40">
+                    Check out
+                </div>
+                <div class="col col-50 col-offset-10">
+                    {{roomData.guest_checkOut}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button button-block button-positive">Show Details</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button button-block button-royal">Room Cleaned</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button button-block button-calm">Sheet Changed</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button button-block button-assertive">Room out of service</button>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
